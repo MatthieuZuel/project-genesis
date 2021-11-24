@@ -13,6 +13,18 @@ export const Container = styled.div`
     min-width: 1100px;
     min-height: 550px;
     display: flex;
+
+    @media screen and (max-width: 1200px) {
+        width: 90%;
+        min-width: auto;
+        margin: 20px;
+        box-shadow: 0 20px 50px rgba(0,0,0,.2);
+    }
+
+    @media screen and (max-width: 991px) {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 `
 
 export const InfoWrapper = styled.div`
@@ -28,6 +40,25 @@ export const InfoWrapper = styled.div`
     justify-content: space-between;
     flex-direction: column;
     box-shadow: 0px 20px 25px rgba(0, 0, 0, .15);
+
+    @media screen and (max-width: 1200px) {
+        top: 0;
+        height: 550px;
+        position: relative;
+        box-shadow: none;
+    }
+
+    @media screen and (max-width: 991px) {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+    }
+
+    @media screen and (max-width: 600px) {
+        padding: 25px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
 `
 
 export const InfoContent = styled.div`
@@ -62,12 +93,22 @@ export const IconWrapper = styled.span`
 export const Text = styled.span`
     color: #010606;
     margin-left: 10px;
+    margin-top: 4px;
     font-weight: 400;
 `
 
 export const Sci = styled.ul`
     position: relative;
     display: flex;
+
+    @media screen and (max-width: 991px) {
+        justify-content: center;
+        align-items: center;
+    }
+
+    @media screen and (max-width: 600px) {
+        margin-top: 40px;
+    }
 `
 
 export const SocialItems = styled.li`
@@ -88,6 +129,25 @@ export const FormWrapper = styled.div`
     height: 100%;
     background: #fff;
     box-shadow: 0 50px 50px rgba(0, 0, 0, .25);
+
+    @media screen and (max-width: 1200px) {
+        position: relative;
+        width: calc(100% - 350px);
+        padding-left: 0;
+        margin-left: 0;
+        padding: 40px;
+        height: 550px;
+        box-shadow: none;
+    }
+
+    @media screen and (max-width: 991px) {
+        width: 100%;
+        height: auto;
+    }
+
+    @media screen and (max-width: 600px) {
+        padding: 25px;
+    }
 `
 
 export const FormTitle = styled.h2`
@@ -108,6 +168,10 @@ export const FormInputs = styled.div`
     position: relative;
     margin-bottom: 35px;
     width: ${({full}) => (full ? '100%' : '47%')};
+
+    @media screen and (max-width: 600px) {
+        width: 100%;
+    }
 `
 
 export const Input = styled.input`

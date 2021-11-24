@@ -44,7 +44,7 @@ const Contact = () => {
 
     return (
         <>
-        <IconContext.Provider value={{color: '#010606', size: '20'}}>
+        <IconContext.Provider value={{color: '#010606', size: '25'}}>
             <Section>
                 <Container>
                     <InfoWrapper>
