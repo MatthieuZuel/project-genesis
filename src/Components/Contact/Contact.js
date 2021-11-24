@@ -3,25 +3,36 @@ import {
     Form,
     FormButton,
     FormInput,
+    FormLabel,
     Icon,
-    Recaptcha
+    TextArea
 } from './Contact.element'
 
 const Contact = () => {
-
     return (
         <>
             <Icon to="/"> Genesis Marketing </Icon>
-            <Form
-                name="contact"
-                method="POST"
-                data-netlify="true"
-                data-netlify-recaptcha="true"
-                data-netlify-honeypot="bot-field"
-                onSubmit="submit"
-            >
-                <FormInput type="hidden" name="form-name" value="contact" />
-                <Recaptcha data-netlify-recaptcha="true"></Recaptcha>
+            <Form onSubmit="submit" >
+                <FormLabel>
+                    Name:
+                    <FormInput 
+                        type="text"
+                        placeholder="Your Name"
+                    />
+                </FormLabel>
+                <FormLabel>
+                    Email:
+                    <FormInput 
+                        type="email"
+                        placeholder="Your Email"
+                    />
+                </FormLabel>
+                <FormLabel>
+                    Message:
+                    <TextArea
+                        placeholder="Message"
+                    ></TextArea>
+                </FormLabel>
                 <FormButton type="submit"> Send </FormButton>
             </Form>
         </>
