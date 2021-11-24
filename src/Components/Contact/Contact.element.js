@@ -35,7 +35,7 @@ export const InfoContent = styled.div`
 `
 
 export const InfoTitle = styled.h2`
-    color: #333;
+    color: #010606;
     font-size: 24px;
     font-weight: 600;
 `
@@ -59,13 +59,8 @@ export const IconWrapper = styled.span`
     min-width: 30px;
 `
 
-export const Icon = styled.img`
-    max-width: 100%;
-    filter: invert(1);
-`
-
 export const Text = styled.span`
-    color: #333;
+    color: #010606;
     margin-left: 10px;
     font-weight: 400;
 `
