@@ -91,7 +91,7 @@ export const FormWrapper = styled.div`
 `
 
 export const FormTitle = styled.h2`
-    color: #0f3959;
+    color: #011522;
     font-size: 24px;
     font-weight: 600;
 `
