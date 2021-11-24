@@ -40,7 +40,7 @@ const Contact = () => {
                             }
                         />
                     </FormLabel>
-                    {/* <FormLabel>
+                    <FormLabel>
                         Email:
                         <FormInput 
                             type="email"
@@ -52,7 +52,7 @@ const Contact = () => {
                         <TextArea
                             placeholder="Message"
                         ></TextArea>
-                    </FormLabel> */}
+                    </FormLabel>
                     <FormButton type="submit"> Send </FormButton>
                 </Form>
             ) : (

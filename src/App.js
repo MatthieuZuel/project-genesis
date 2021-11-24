@@ -7,12 +7,11 @@ function App() {
   return (
     <Router>
       <GlobalStyle/>
-      <ContactPage />
-      {/* <Routes>
+      <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/contact" exact element={ <ContactPage /> } />
         <Route path="*" element={<PageNotFound />} />
-      </Routes> */}
+      </Routes>
     </Router>
   );
 }
