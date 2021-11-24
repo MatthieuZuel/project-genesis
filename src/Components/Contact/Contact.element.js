@@ -35,7 +35,7 @@ export const InfoContent = styled.div`
 `
 
 export const InfoTitle = styled.h2`
-    color: #fff;
+    color: #333;
     font-size: 24px;
     font-weight: 600;
 `
@@ -65,7 +65,7 @@ export const Icon = styled.img`
 `
 
 export const Text = styled.span`
-    color: #fff;
+    color: #333;
     margin-left: 10px;
     font-weight: 400;
 `
