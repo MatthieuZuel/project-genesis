@@ -81,7 +81,7 @@ export const InfoItem = styled.li`
     list-style: none;
     display: flex;
     margin: 20px 0;
-    cursor: pointer;
+    /*cursor: pointer;*/
     align-items: flex-start;
 `
 
@@ -241,7 +241,7 @@ export const FormButton = styled.button`
 
     &:hover {
         transition: all .2 ease-in-out;
-        background: #fff;
-        color: #010606;
+        background: #010606;
+        color: #fff;
     }
 `

@@ -31,7 +31,7 @@ const Hero = () => {
                 <HeroP> Genesis Marketing, the beginning, your future. </HeroP>
                 <HeroBtnWrapper>
                     <Button
-                        to="home"
+                        to="about"
                         onMouseEnter={onHover}
                         onMouseLeave={onHover}
                         primary="true"
@@ -42,7 +42,7 @@ const Hero = () => {
                         exact='true'
                         offset={-80}
                     >
-                        Learn More {hover ? <ArrowForward /> : <ArrowRight />}
+                        En savoir plus {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
                 </HeroBtnWrapper>
             </HeroContent>

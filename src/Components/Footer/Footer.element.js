@@ -54,6 +54,7 @@ export const SocialIcons = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 0 1rem;
     width: 15rem;
 `
 

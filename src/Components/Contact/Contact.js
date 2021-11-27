@@ -1,7 +1,6 @@
 import React from 'react';
-import { FaFacebookF } from 'react-icons/fa';
-import { GoLocation, GoMail } from 'react-icons/go'
-import { IoCallOutline } from 'react-icons/io5'
+import { FaFacebookF, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
+import { GoMail } from 'react-icons/go'
 import { IconContext } from 'react-icons/lib';
 import emailjs from 'emailjs-com'
 import {
@@ -44,14 +43,14 @@ const Contact = () => {
 
     return (
         <>
-        <IconContext.Provider value={{color: '#010606', size: '25'}}>
+        <IconContext.Provider value={{color: '#010606', size: '22'}}>
             <Section>
                 <Container>
                     <InfoWrapper>
                         <InfoContent>
                             <InfoTitle>Contact Info</InfoTitle>
                             <Info>
-                                <InfoItem>
+                                {/* <InfoItem>
                                     <IconWrapper>
                                         <GoLocation />
                                     </IconWrapper>
@@ -60,21 +59,21 @@ const Contact = () => {
                                         Los Angeles, CA <br/>
                                         90017
                                     </Text>
-                                </InfoItem>
+                                </InfoItem> */}
                                 <InfoItem>
                                     <IconWrapper>
                                         <GoMail />
                                     </IconWrapper>
                                     <Text>
-                                        lorem@ipsum.com
+                                        info@gnsmrting.com
                                     </Text>
                                 </InfoItem>
                                 <InfoItem>
                                     <IconWrapper>
-                                        <IoCallOutline />
+                                        <FaWhatsapp />
                                     </IconWrapper>
                                     <Text>
-                                        310-286-1623
+                                        +230 5270 7378
                                     </Text>
                                 </InfoItem>
                             </Info>
@@ -83,6 +82,11 @@ const Contact = () => {
                             <SocialItems>
                                 <SocialLink href="//www.facebook.com/gensmarketing/">
                                     <FaFacebookF />
+                                </SocialLink>
+                            </SocialItems>
+                            <SocialItems>
+                                <SocialLink href="//www.linkedin.com/in/genesis-marketing-bb5810222/">
+                                    <FaLinkedin />
                                 </SocialLink>
                             </SocialItems>
                         </Sci>

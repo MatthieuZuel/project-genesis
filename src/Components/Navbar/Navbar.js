@@ -54,7 +54,17 @@ const Navbar = ({ toggle }) => {
                                     spy={true}
                                     exact='true'
                                     offset={-80}
-                                >About</NavLinks>
+                                >Qui sommes nous ?</NavLinks>
+                            </NavItem>
+                            <NavItem>
+                                <NavLinks
+                                    to="action"
+                                    smooth={true}
+                                    duration={500}
+                                    spy={true}
+                                    exact='true'
+                                    offset={-80}
+                                >Champ d'action</NavLinks>
                             </NavItem>
                             <NavItem>
                                 <NavLinks
@@ -64,7 +74,7 @@ const Navbar = ({ toggle }) => {
                                     spy={true}
                                     exact='true'
                                     offset={-80}
-                                >Services</NavLinks>
+                                >Nos services</NavLinks>
                             </NavItem>
                             <NavItem>
                                 <NavLinks
@@ -74,11 +84,11 @@ const Navbar = ({ toggle }) => {
                                     spy={true}
                                     exact='true'
                                     offset={-80}
-                                >Discover</NavLinks>
+                                >Notre expertise</NavLinks>
                             </NavItem>
                         </NavMenu>
                         <NavBtn>
-                            <NavBtnLink to="/contact">Contact Us</NavBtnLink>
+                            <NavBtnLink to="/contact">Nous Contacter</NavBtnLink>
                         </NavBtn>
                     </NavbarContainer>
                 </Nav>

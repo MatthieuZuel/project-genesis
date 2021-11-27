@@ -8,7 +8,7 @@ export const homeObjOne = {
     description: 'Nous intervenons dans le domaine du recrutement et dénichons des compétences et des professionnels correspondant à vos critères.',
     buttonLabel: 'Contact Us',
     imgStart: false,
-    img: require('../../Images/svg-1.svg').default,
+    img: require('../../Images/img-3.jpg').default,
     alt: 'Image-1',
     dark: true,
     primary: true,
@@ -18,7 +18,7 @@ export const homeObjOne = {
 }
 
 export const homeObjTwo = {
-    id: 'about',
+    id: 'action',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
@@ -27,7 +27,7 @@ export const homeObjTwo = {
     description: "Genesis Marketing est une entreprise en pleine croissance, couvrant deux secteurs d'activité allant du recrutement de personnel qualifié au marketing des vos services.",
     buttonLabel: 'Contact Us',
     imgStart: true,
-    img: require('../../Images/svg-1.svg').default,
+    img: require('../../Images/img-2.jpg').default,
     alt: 'Image-1',
     dark: false,
     primary: false,
@@ -44,7 +44,7 @@ export const homeObjThree = {
     description: "Vous êtes chef d'entreprise, jeune entrepreneur et voulez agrandir vos effectifs et pas assez de temps de passer des entretiens d'embauche, Genesis Marketing est la pour vous accompagner et vous aider à atteindre vos objectifs en toute sérénité.",
     buttonLabel: 'Contact Us',
     imgStart: false,
-    img: require('../../Images/svg-1.svg').default,
+    img: require('../../Images/img-1.jpg').default,
     alt: 'Image-1',
     dark: false,
     primary: false,
