@@ -82,7 +82,7 @@ export const NavLinks = styled(LinkS)`
     cursor: pointer;
 
     &.active {
-        border-bottom: 3px solid #01bf71; // Primary Color
+        border-bottom: 3px solid #5ce1e6; // Primary Color
     }
 `;
 
@@ -96,7 +96,7 @@ export const NavBtn = styled.div`
 `
 export const NavBtnLink = styled(LinkR)`
     border-radius: 3.125rem;
-    background: #01bf71; // Primary Color
+    background: #5ce1e6; // Primary Color
     white-space: nowrap;
     padding: .625rem 1.375rem;
     color: #010606;

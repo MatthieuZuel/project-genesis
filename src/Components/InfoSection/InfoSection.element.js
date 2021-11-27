@@ -53,7 +53,7 @@ export const TextWrapper = styled.div`
     padding-bottom: 3.75rem;
 `
 export const TopLine = styled.p`
-    color: #01bf71; // Primary Color
+    color: #5ce1e6; // Primary Color
     font-size: 1.2rem;
     font-weight: 700;
     line-height: 1rem;

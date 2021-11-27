@@ -6,7 +6,7 @@ export const Button = styled(LinkS)`
     justify-content: center;
     align-items: center;
     border-radius: 3.125rem;
-    background: ${({primary}) => (primary ? '#01bf71' : '#010606')};
+    background: ${({primary}) => (primary ? '#5ce1e6' : '#010606')};
     white-space: nowrap;
     padding: ${({big}) => (big ? '.875rem 3rem' : '.75rem 1.875rem')};
     color: ${({ dark }) => ( dark ? '#010606' : '#fff' )};
@@ -19,6 +19,6 @@ export const Button = styled(LinkS)`
 
     &:hover {
         transition: all .2 ease-in-out;
-        background: ${({primary}) => (primary ? '#fff' : '#01bf71')};
+        background: ${({primary}) => (primary ? '#fff' : '#5ce1e6')};
     }
 `;

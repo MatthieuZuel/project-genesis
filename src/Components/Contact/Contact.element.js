@@ -32,7 +32,7 @@ export const InfoWrapper = styled.div`
     top: 40px;
     width: 350px;
     height: calc(100% - 80px);
-    background: #01bf71;
+    background: #5ce1e6;
     z-index: 1;
     padding: 40px;
     display: flex;
@@ -190,7 +190,7 @@ export const Input = styled.input`
         transform: translateY(-20px);
         font-size: 12px;
         letter-spacing: 1px;
-        color: #01bf71;
+        color: #5ce1e6;
     }
 `
 
@@ -211,7 +211,7 @@ export const TextArea = styled.textarea`
         transform: translateY(-20px);
         font-size: 12px;
         letter-spacing: 1px;
-        color: #01bf71;
+        color: #5ce1e6;
     }
 `
 
@@ -228,7 +228,7 @@ export const Label = styled.label`
 export const FormButton = styled.button`
     margin-top: 1.5rem;
     border-radius: 3.125rem;
-    background: #01bf71; // Primary Color
+    background: #5ce1e6; // Primary Color
     white-space: nowrap;
     padding: .625rem 1.375rem;
     color: #010606;
