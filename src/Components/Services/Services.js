@@ -17,18 +17,18 @@ const Services = () => {
             <ServicesWrapper>
                 <ServicesCard>
                     <ServicesIcon src={Icon1} />
-                    <ServicesH2>Service 1</ServicesH2>
-                    <ServicesP>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga officia eum quos obcaecati harum accusantium inventore nisi accusamus magni voluptatum.</ServicesP>
+                    <ServicesH2>Nous recrutons pour vous</ServicesH2>
+                    <ServicesP>Genesis Marketing s'engage à recruter des profesionnels talentueux ainsi que des stagiaires d'après votre domaine d'activité.</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon1} />
-                    <ServicesH2>Service 2</ServicesH2>
-                    <ServicesP>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga officia eum quos obcaecati harum accusantium inventore nisi accusamus magni voluptatum.</ServicesP>
+                    <ServicesH2>Accompagnement personnalisé</ServicesH2>
+                    <ServicesP>Grace à notre savoir-faire de profilage psychologique à travers des entretiens personnalisés, nous vous proposons plusieurs candidatures pour plus des choix de celle ou celui qui vous convient.</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon1} />
-                    <ServicesH2>Service 3</ServicesH2>
-                    <ServicesP>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga officia eum quos obcaecati harum accusantium inventore nisi accusamus magni voluptatum.</ServicesP>
+                    <ServicesH2>Facturation</ServicesH2>
+                    <ServicesP>Nous vous facturons par entreprise et non par nombre des candidats, des forfaits pack sur mesure sont disponibles.</ServicesP>
                 </ServicesCard>
             </ServicesWrapper>
         </ServicesContainer>

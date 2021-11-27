@@ -54,7 +54,7 @@ export const TextWrapper = styled.div`
 `
 export const TopLine = styled.p`
     color: #01bf71; // Primary Color
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 700;
     line-height: 1rem;
     letter-spacing: 1.4px;
@@ -64,16 +64,16 @@ export const TopLine = styled.p`
 
 export const Heading = styled.h1`
     margin-bottom: 1.5rem;
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 1.1;
     color: ${({lightText}) => (lightText ? '#f7f8fa' : '#010606')};
 
     @media screen and (max-width: 768px) {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     @media screen and (max-width: 480px) {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 `
 
