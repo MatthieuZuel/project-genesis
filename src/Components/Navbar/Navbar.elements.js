@@ -36,7 +36,6 @@ export const NavLogo = styled(LinkR)`
     cursor: pointer;
     margin-left: 1.5rem;
     color: #fff;
-    font-family: 'Comfortaa', cursive;
     font-size: 1.5rem;
     font-weight: 700;
     text-decoration: none;

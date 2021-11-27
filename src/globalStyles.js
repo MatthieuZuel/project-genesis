@@ -14,7 +14,7 @@ const GlobalStyle = createGlobalStyle`
     h4,
     h5,
     h6 {
-        font-family: 'Encode Sans Expanded', sans-serif;
+        font-weight: 600 !important;
     }
 `;
 

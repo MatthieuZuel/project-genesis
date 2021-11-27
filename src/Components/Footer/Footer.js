@@ -28,7 +28,7 @@ const Footer = () => {
                         </SocialLogo>
                         <WebsiteRights> Genesis Marketing © {new Date().getFullYear()} All rights reserved. </WebsiteRights>
                         <SocialIcons>
-                            <SocialIconLink href="//www.facebook.com" target="_blank" aria-label="Facebook">
+                            <SocialIconLink href="//www.facebook.com/gensmarketing/" target="_blank" aria-label="Facebook">
                                 <FaFacebook />
                             </SocialIconLink>
                         </SocialIcons>

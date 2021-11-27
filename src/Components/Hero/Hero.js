@@ -27,8 +27,8 @@ const Hero = () => {
                 <ImageBg src={Image} alt='Genesis Marketing' />
             </HeroBg>
             <HeroContent>
-                <HeroH1>Hello World!</HeroH1>
-                <HeroP>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus alias suscipit earum, est voluptate qui porro velit cumque officiis deserunt quis rerum sapiente laboriosam excepturi vero laborum, quibusdam deleniti nam.</HeroP>
+                <HeroH1> Recruter pour vous, c'est notre savoir-faire. Chez Genesis Marketing, la discrétion reste notre force. </HeroH1>
+                <HeroP> Genesis Marketing, the beginning, your future. </HeroP>
                 <HeroBtnWrapper>
                     <Button
                         to="home"

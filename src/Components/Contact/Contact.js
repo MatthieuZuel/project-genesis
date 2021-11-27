@@ -81,7 +81,7 @@ const Contact = () => {
                         </InfoContent>
                         <Sci>
                             <SocialItems>
-                                <SocialLink href="//www.facebook.com">
+                                <SocialLink href="//www.facebook.com/gensmarketing/">
                                     <FaFacebookF />
                                 </SocialLink>
                             </SocialItems>

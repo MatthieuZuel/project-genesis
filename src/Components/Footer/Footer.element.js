@@ -37,7 +37,6 @@ export const SocialLogo = styled(LinkR)`
     justify-self: start;
     cursor: pointer;
     text-decoration: none;
-    font-family: 'Comfortaa', cursive;
     font-size: 1.5rem;
     font-weight: 700;
     display: flex;
