@@ -42,6 +42,13 @@ export const SocialLogo = styled(LinkR)`
     display: flex;
     align-items: center;
     margin-bottom: 1rem;
+    max-height: 100%;
+    width: auto;
+
+    img {
+        height: 5rem;
+        aspect-ratio: 1/1;
+    }
 `
 
 export const WebsiteRights = styled.small`

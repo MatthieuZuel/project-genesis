@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaFacebook, FaLinkedin } from 'react-icons/fa'
 import { animateScroll as scroll } from 'react-scroll'
+import logo from '../../Images/Genesis Logo-01.svg'
 import {
     FooterContainer,
     FooterWrap,
@@ -24,7 +25,7 @@ const Footer = () => {
                 <SocialMedia>
                     <SocialMediaWrap>
                         <SocialLogo to='/' onClick={toggleHome}>
-                            Genesis Marketing
+                            <img src={logo} alt="logo" />
                         </SocialLogo>
                         <WebsiteRights> Genesis Marketing © {new Date().getFullYear()} All rights reserved. </WebsiteRights>
                         <SocialIcons>

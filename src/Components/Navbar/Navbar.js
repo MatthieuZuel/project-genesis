@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { FaBars } from 'react-icons/fa'
 import {IconContext} from 'react-icons/lib'
 import { animateScroll as scroll } from 'react-scroll'
+import logo from '../../Images/Genesis Logo-01.svg'
 import {
     Nav,
     NavbarContainer,
@@ -40,7 +41,7 @@ const Navbar = ({ toggle }) => {
                 <Nav scrollNav={scrollNav}>
                     <NavbarContainer>
                         <NavLogo to='/' onClick={toggleHome}>
-                            Genesis Marketing
+                            <img src={logo} alt="logo" />
                         </NavLogo>
                         <MobileIcon onClick={toggle}>
                             <FaBars />
