@@ -35,7 +35,7 @@ export const NavLogo = styled(LinkR)`
 	justify-self: flex-start;
 	cursor: pointer;
 	margin-left: 1.5rem;
-	color: #333;
+	color: ${({ scrollNav }) => (scrollNav ? '#333' : '#fff')};
 	font-size: 1.5rem;
 	font-weight: 700;
 	text-decoration: none;
@@ -58,7 +58,7 @@ export const MobileIcon = styled.div`
 		transform: translate(-100%, 60%);
 		font-size: 1.8rem;
 		cursor: pointer;
-		color: #333;
+		color: ${({ scrollNav }) => (scrollNav ? '#333' : '#fff')};
 	}
 `;
 
@@ -81,7 +81,7 @@ export const NavItem = styled.li`
 export const NavLinks = styled(LinkS)`
 	display: flex;
 	align-items: center;
-	color: #333;
+	color: ${({ scrollNav }) => (scrollNav ? '#333' : '#fff')};
 	text-decoration: none;
 	padding: 0 1rem;
 	height: 100%;
