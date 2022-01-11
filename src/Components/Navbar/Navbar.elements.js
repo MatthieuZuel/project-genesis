@@ -14,7 +14,7 @@ export const Nav = styled.nav`
 	color: ${({ scrollNav }) => (scrollNav ? '#333' : '#fff')};
 	font-size: 1rem;
 	z-index: 10;
-	transition: all 0.8s ease, background 0.3s ease;
+	transition: all 0.8s ease, background 0.3s ease, color 0.3s ease;
 
 	@media screen and (max-width: 960px) {
 		transition: all 0.8s ease;
