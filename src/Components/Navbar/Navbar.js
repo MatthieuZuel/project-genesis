@@ -40,7 +40,7 @@ const Navbar = ({ toggle }) => {
 				<Nav scrollNav={scrollNav}>
 					<NavbarContainer>
 						<NavLogo to='/' onClick={toggleHome}>
-							<img src={logo} alt='logo' />
+							<img src={logo} alt='Logo : Genesis Marketing' />
 						</NavLogo>
 						<MobileIcon onClick={toggle}>
 							<FaBars />
